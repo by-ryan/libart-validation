@@ -1,0 +1,4 @@
+import libs = libart-validation%lib{art-validation}
+
+exe{basics}: {hxx ixx txx cxx}{**} $libs testscript{**}
+exe{basics}: test.options = -v -v
