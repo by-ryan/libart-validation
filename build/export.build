@@ -1,0 +1,6 @@
+$out_root/
+{
+  include art/validation/
+}
+
+export $out_root/art/validation/$import.target
